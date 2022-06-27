@@ -9,7 +9,7 @@ import io.kotest.matchers.shouldBe
 class RankTest : ExpectSpec() {
     init {
         context("fromNotation") {
-            expect("표기법에 해당하는 Rank를 반환한다") {
+            expect("notation에 해당하는 Rank를 반환한다") {
                 val actual = Rank.fromNotation("1")
 
                 assertSoftly(actual) {
@@ -19,7 +19,7 @@ class RankTest : ExpectSpec() {
                 }
             }
 
-            expect("Rank에 존재하지 않는 표기법의 경우 null을 반환한다") {
+            expect("notation에 해당하는 Rank가 없을 경우 null을 반환한다") {
                 val actual = File.fromNotation("9")
 
                 actual.shouldBeNull()
