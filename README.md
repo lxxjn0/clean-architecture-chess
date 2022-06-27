@@ -50,9 +50,9 @@ p.pppppp
 rnbqkbnr
 ```
 
-## Step 02. Spring Framework 적용하기
+## Step 02. Hexagonal Architecture로 리팩터링 하기
 
-## Step 03. Hexagonal Architecture로 리팩터링 하기
+## Step 03. Spring Framework 적용하기
 
 ## 개발 관련 내용 정리
 
