@@ -1,4 +1,4 @@
-package me.lxxjn0.chess.domain.board
+package me.lxxjn0.chess.domain.chessboard
 
 data class Position(
     val file: File,

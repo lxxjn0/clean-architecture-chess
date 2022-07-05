@@ -1,4 +1,4 @@
-package me.lxxjn0.chess.domain.board
+package me.lxxjn0.chess.domain.chessboard
 
 enum class Rank(
     val number: Int,

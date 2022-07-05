@@ -3,6 +3,9 @@ package me.lxxjn0.chess.domain.board
 import io.kotest.core.spec.style.ExpectSpec
 import io.kotest.matchers.nulls.shouldBeNull
 import io.kotest.matchers.shouldBe
+import me.lxxjn0.chess.domain.chessboard.File
+import me.lxxjn0.chess.domain.chessboard.Position
+import me.lxxjn0.chess.domain.chessboard.Rank
 
 class PositionTest : ExpectSpec() {
     init {
